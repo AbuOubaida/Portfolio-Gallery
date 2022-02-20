@@ -1,0 +1,220 @@
+.mamutitle{display: block;color: #1a202c;text-align: center;}
+.mynav{margin: 0 5px 0 5px;padding: 0;list-style: none;}
+.mynav li{display: block;}
+.mynav li a{display: block;background: #4a5568;padding: 5px;margin-bottom: 5px;color: #f7fafc;}
+.mynav li a:hover{background: #2d3748;color: #0a0a0a;}
+.maindiv{
+    padding: 30px;
+}
+.bg-danger {
+    background: darkred!important;
+}
+.bg-success {
+    background: #22bb5b!important;
+}
+.bg-info {
+    background: orangered!important;
+}
+.bg-dark {
+    background: black!important;
+}
+.bg-primary {
+    background: #1673b1!important;
+}
+.bg-white {
+    background: #f7fafc!important;
+}
+.text-danger {
+    color: darkred!important;
+}
+.text-success {
+    color: #22bb5b!important;
+}
+.text-info {
+    color: orangered!important;
+}
+.text-dark {
+    color: black!important;
+}
+.text-primary {
+    color: #1673b1!important;
+}
+.text-white {
+    color: #f7fafc!important;
+}
+.cover-image {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+.cover-image-show{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.alert-box{
+    text-align: center;
+    background: chartreuse;
+    border-left: 5px solid red;
+    font-size: 2.5em;
+}
+.profile-pic{
+    margin-bottom:0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.profile-pic-lg{
+    border-radius: 50%;
+    border: 3px
+    solid #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}
+.cover-image-section{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* z-index: 1; */
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.profile-cover-bg{
+    background: none;
+    padding: 0 0 0 1em;
+    border: 0px;
+}
+.profile-name{
+    font-weight: 900;
+    color: #742dac;
+    font-size: 2.5em;
+}
+.profile-title-sec{
+    top: 45%;
+    left: 17%;
+}
+.roll{
+    background: aqua;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 10px;
+    color: #f9fd00;
+    font-weight: bold;
+}
+.edit-profile-btn{
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: red;
+    margin-left: 20px;
+}
+.img-responsive{
+    width: 100%;
+}
+.comment-input{
+    display: inline-block;
+    width: 75%;
+    height: 40px;
+    border: 1px solid aqua;
+    padding: 6px 10px;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+
+}
+.comment-input:focus{
+    border: 1px solid aqua;
+}
+.comment-btn{
+    width: 25%;
+    border: 1px solid #00ff56;
+    border-left: none;
+    padding: 10px 10px;
+    margin-left: -5px;
+    background: aqua;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.comment-btn:hover{
+    background: #00ff56;
+    color: #5d6260;
+    border: 1px solid #00ff56;
+}
+.evl{
+    /*padding-top: 10px;*/
+    margin-bottom: 10px;
+}
+.evl a button{
+    cursor: pointer;
+}
+.evl a button:hover{
+    color: black;
+}
+.evl-text{
+    color: gray;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.like{
+    background: none;
+    color: gray;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+}
+.dislike{
+    background: none;
+    color: gray;
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.commenter-icon{
+    background: #00adff;
+    padding: 3px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+}
+.comment-bg {
+    background: #b5b5b5;
+    padding: 15px 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.like_active {
+    color: blue!important;
+}
+.like_active:hover{
+    color: blue!important;
+}
+.dislike_active {
+    color: blue!important;
+}
+.dislike_active:hover{
+    color: blue!important;
+}
+.comment-op-icon {
+    margin-right: 20px;
+    display: block;
+    font-weight: bolder;
+}
+.owner-icon{
+    background: #a53b2a;
+    padding: 2px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+}
